@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 .jaro-nm {
   font-family: "Jaro", sans-serif;
@@ -39,6 +39,7 @@ body {
   margin: 0;
   display: flex;
   height: 100vh;
+  font-family: "Poppins";
 }
 
 .left-panel {
