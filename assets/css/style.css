@@ -589,7 +589,7 @@ main li {
     transition: 0.5 ease-in;
   }
   .navbar-toggler {
-    display: none;
+    display: block;
   }
   .main-content {
     padding: 1rem 2rem;
