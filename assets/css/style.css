@@ -620,18 +620,13 @@ main li {
     width: 144px;
     padding: 17px;
   }
-  .indicator::before {
-    top: -10px;
-    left: 18px;
-    width: 10px;
-    height: 10px;
-  }
-  .indicator::after {
-    bottom: -10px;
-    left: 18px;
-    width: 10px;
-    height: 10px;
-  }
+  .indicator {
+    border-left: 7px solid #262626 !important; 
+    background-color: transparent;
+}
+  .indicator::before , .indicator::after{
+  display: none;
+  } 
   .thinking-bubble::after {
     bottom: 14.4px;
     left: -14px;
