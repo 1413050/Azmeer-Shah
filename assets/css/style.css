@@ -633,6 +633,9 @@ main li {
     height: 25px;
     width: 25px;
   }
+  a.nav-link.active { 
+    margin-right: 0px;
+}
   .thinking-bubble::before {
     bottom: 10px;
     left: -19px;
