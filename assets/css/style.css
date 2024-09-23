@@ -617,8 +617,20 @@ main li {
     left: 68%;
     font-size: 11px;
     height: 130px;
-    width: 130px;
+    width: 144px;
     padding: 17px;
+  }
+  .indicator::before {
+    top: -10px;
+    left: 18px;
+    width: 10px;
+    height: 10px;
+  }
+  .indicator::after {
+    bottom: -10px;
+    left: 18px;
+    width: 10px;
+    height: 10px;
   }
   .thinking-bubble::after {
     bottom: 14.4px;
