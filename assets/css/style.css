@@ -622,7 +622,7 @@ main li {
   }
   .indicator {
     border-left: 7px solid #262626 !important; 
-    background-color: transparent;
+    background-color: transparent !important;
 }
   .indicator::before , .indicator::after{
   display: none;
