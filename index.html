@@ -22,21 +22,21 @@
   <body>
     <div class="left-panel">
       <div
-        class="nav-container w-full h-full flex justify-around items-center relative"
+        class="relative flex justify-around items-center w-full h-full nav-container"
       >
-        <span h class="rowdies-bold text-3xl">Azmeer.</span>
-        <a href="#about" class="nav-link jaro-nm text-xl aboutActive active"
+        <span h class="text-3xl rowdies-bold">Azmeer.</span>
+        <a href="#about" class="text-xl aboutActive active jaro-nm nav-link"
           >ABOUT</a
         >
-        <a href="#work" class="nav-link jaro-nm text-xl">WORK</a>
-        <a href="#resume" class="nav-link jaro-nm text-xl">Resume</a>
-        <a href="#skills" class="nav-link jaro-nm text-xl">SKILLS</a>
+        <a href="#work" class="text-xl jaro-nm nav-link">WORK</a>
+        <a href="#resume" class="text-xl jaro-nm nav-link">Resume</a>
+        <a href="#skills" class="text-xl jaro-nm nav-link">SKILLS</a>
         <div class="indicator"></div>
       </div>
     </div>
-    <div class="main-content relative">
+    <div class="relative main-content">
       <button
-        class="navbar-toggler collapsed fixed top-0 right-5"
+        class="top-0 right-5 fixed collapsed navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarCollapse"
@@ -48,13 +48,13 @@
         <span> </span>
         <span> </span>
       </button>
-      <div class="text-center pt-16">
-        <h1 class="text-3xl font-bold mb-4">
-          Hi there, I'm <br /><span class="text-[#e76652] rowdies-bold text-7xl"
+      <div class="pt-16 text-center">
+        <h1 class="mb-4 font-bold text-3xl">
+          Hi there, I'm <br /><span class="text-[#e76652] text-7xl rowdies-bold"
             >Azmeer Shah</span
           >
         </h1>
-        <h2 class="text-2xl font-semibold mb-4">Front End Developer</h2>
+        <h2 class="mb-4 font-semibold text-2xl">Front End Developer</h2>
         <p class="mb-6 text-sm">
           I am passionate about creating engaging and dynamic user interfaces.
           With a focus on responsive design and performance optimization, I
@@ -96,7 +96,7 @@
       <div class="social-buttons">
         <a
           href="https://github.com/1413050"
-          class="social-button github"
+          class="github social-button"
           target="_blank"
         >
           <svg
@@ -111,7 +111,7 @@
         </a>
         <a
           href="https://www.linkedin.com/in/azmeer-shah-588495270"
-          class="social-button linkedin"
+          class="linkedin social-button"
           target="_blank"
         >
           <svg
@@ -132,7 +132,7 @@
         </a>
         <a
           href="https://www.facebook.com/azmeer.shah.7"
-          class="social-button facebook"
+          class="facebook social-button"
           target="_blank"
         >
           <svg
@@ -157,7 +157,7 @@
         </a>
         <a
           href="https://www.instagram.com/azmeer_shah2/?igsh=N2tuZ3B3N2t1cmtl"
-          class="social-button instagram"
+          class="instagram social-button"
           target="_blank"
         >
           <svg
@@ -183,7 +183,7 @@
             </g>
           </svg>
         </a>
-        <a href="tel: +923230316808" class="social-button github bg-yellow-400">
+        <a href="tel: +923230316808" class="bg-yellow-400 github social-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -200,13 +200,13 @@
       </div>
     </div>
 
-    <div class="right-panel relative">
-      <div class="flex justify-center h-full pt-28 items-center">
-        <div class="laptop-emoji relative">
+    <div class="relative right-panel">
+      <div class="flex justify-center items-center pt-28 h-full">
+        <div class="relative laptop-emoji">
           <img
             src="./assets/images/avatar.png"
             alt="Laptop Emoji"
-            class="w-full h-full mb-10"
+            class="mb-10 w-full h-full"
             id="avatar-image"
           />
 
@@ -219,7 +219,7 @@
               >Hey! <br />
               <span
                 contenteditable="true"
-                class="text-2xl text-[#e76652] font-bold rowdies-bold"
+                class="font-bold text-[#e76652] text-2xl rowdies-bold"
                 >Recruiter</span
               >
               <p>Explore My work experience and skills now</p></span
@@ -227,45 +227,45 @@
           </div>
 
           <button
-            class="overflow-hidden exploreBtn relative w-64 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+            class="relative relative z-10 bg-black p-2 border-none rounded-md w-64 h-12 font-bold text-white text-xl cursor-pointer overflow-hidden exploreBtn group"
             type="button"
             onclick="removeFixed()"
           >
             Explore my work!
             <span
-              class="absolute w-80 h-32 -top-8 -left-2 bg-white rotate-6 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+              class="group-hover:scale-x-100 -top-8 -left-2 absolute bg-white w-80 h-32 transform origin-left transition-transform duration-1000 group-hover:duration-500 rotate-6 scale-x-0"
             ></span>
             <span
-              class="absolute w-80 h-32 -top-8 -left-2 bg-black rotate-6 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+              class="group-hover:scale-x-100 -top-8 -left-2 absolute bg-black w-80 h-32 transform origin-left transition-transform duration-700 group-hover:duration-700 rotate-6 scale-x-0"
             ></span>
             <span
-              class="absolute w-80 h-32 -top-8 -left-2 bg-[#e76652] rotate-6 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"
+              class="group-hover:scale-x-100 -top-8 -left-2 absolute bg-[#e76652] w-80 h-32 transform origin-left transition-transform duration-500 group-hover:duration-1000 rotate-6 scale-x-0"
             ></span>
             <span
-              class="group-hover:opacity-100 group-hover:duration-1000 text-center duration-100 opacity-0 absolute top-1.5 left-28 z-10"
-              ><i class="fa-solid fa-angles-right text-3xl"></i
+              class="top-1.5 left-28 z-10 absolute opacity-0 group-hover:opacity-100 text-center duration-100 group-hover:duration-1000"
+              ><i class="fa-angles-right text-3xl fa-solid"></i
             ></span>
           </button>
         </div>
       </div>
 
       <div
-        class="flex fixed fixed_div w-1/2 px-10 left-auto justify-center top-0 h-full items-center z-50 bg-glass"
+        class="top-0 left-auto z-50 fixed fixed_div flex justify-center items-center bg-glass px-10 w-1/2 h-full"
         id="resume"
       >
         <div
-          class="bg-white w-full p-10 pt-16 pb-28 rounded-2xl image shadow-2xl"
+          class="bg-white shadow-2xl p-10 pt-16 pb-28 rounded-2xl w-full image"
           style="
             box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
               rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
           "
         >
           <section class="section">
-            <h2 class="text-xl font-semibold mb-4 jaro-nm">EXPERIENCE</h2>
+            <h2 class="mb-4 font-semibold text-xl jaro-nm">EXPERIENCE</h2>
             <div class="mb-4">
               <h3 class="font-bold jaro-nm">Intern</h3>
               <p class="rowdies-bold">Fosphorus || 07-2023 / 11-2023</p>
-              <ul class="list-none list-inside mt-3">
+              <ul class="mt-3 list-inside list-none">
                 <li>
                   Crafted fully responsive websites, showcasing a profound grasp
                   of responsive design principles.
@@ -281,9 +281,9 @@
               </ul>
             </div>
             <div>
-              <h3 class="font-bold jaro-nm mt-8">Junior Front End</h3>
+              <h3 class="mt-8 font-bold jaro-nm">Junior Front End</h3>
               <p class="rowdies-bold">Fosphorus || 12-2023 / Present</p>
-              <ul class="list-none list-inside mt-3">
+              <ul class="mt-3 list-inside list-none">
                 <li>
                   Creation of dashboards, ensuring smooth coordination with
                   Laravel developers.
@@ -329,98 +329,98 @@
         </div>
       </div>
       <div
-        class="flex fixed fixed_div w-1/2 left-auto justify-center top-0 h-full items-center z-50 bg-glass"
+        class="top-0 left-auto z-50 fixed fixed_div flex justify-center items-center bg-glass w-1/2 h-full"
         id="skills"
       >
         <div
-          class="w-4/5 p-5 skillbar-container flex-wrap flex flex-1 justify-center items-center relative gap-8"
+          class="relative flex flex-wrap flex-1 justify-center items-center gap-8 p-5 w-4/5 skillbar-container"
         >
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="90%"
             data-color="#e44d26"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               90 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">HTML</h4>
+            <h4 class="z-10 font-extrabold text-sm">HTML</h4>
           </div>
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="85%"
             data-color="#214ce5"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               85 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">CSS</h4>
+            <h4 class="z-10 font-extrabold text-sm">CSS</h4>
           </div>
 
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="90%"
             data-color="#8011F5"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               90 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">BS</h4>
+            <h4 class="z-10 font-extrabold text-sm">BS</h4>
           </div>
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="50%"
             data-color="#36B7F0"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               50 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">Tailwind</h4>
+            <h4 class="z-10 font-extrabold text-sm">Tailwind</h4>
           </div>
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="65%"
             data-color="#FFE000"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               65 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">JS</h4>
+            <h4 class="z-10 font-extrabold text-sm">JS</h4>
           </div>
 
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="65%"
             data-color="#0868AC"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               65 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">Jquery</h4>
+            <h4 class="z-10 font-extrabold text-sm">Jquery</h4>
           </div>
           <div
-            class="circle-skillbar relative w-[180px] h-[180px] flex justify-center items-center rounded-full flex-col"
+            class="relative flex flex-col justify-center items-center rounded-full w-[180px] h-[180px] circle-skillbar"
             data-percent="55%"
             data-color="#00d1f7"
           >
-            <h2 class="number text-xl font-bold text-white z-10">
+            <h2 class="z-10 font-bold text-white text-xl number">
               55 <span>%</span>
             </h2>
-            <h4 class="font-extrabold text-sm z-10">React</h4>
+            <h4 class="z-10 font-extrabold text-sm">React</h4>
           </div>
         </div>
       </div>
 
       <div
-        class="flex fixed_div fixed w-1/2 left-auto justify-center top-0 h-full items-center z-50 bg-glass"
+        class="top-0 left-auto z-50 fixed fixed_div flex justify-center items-center bg-glass w-1/2 h-full"
         id="work"
       >
         <div
-          class="flex-wrap flex flex-1 justify-center items-center relative gap-8"
+          class="relative flex flex-wrap flex-1 justify-center items-center gap-8"
         >
           <div id="bar_before">
             <ul></ul>
           </div>
-          <main onscroll="refreshBars();" class="bg-glass">
+          <main id="bar_scroll" class="bg-glass">
             <ul>
               <li>
                 <img
